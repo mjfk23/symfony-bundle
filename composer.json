@@ -1,0 +1,40 @@
+{
+    "name": "mjfk23/symfony-bundle",
+    "description": "Common dependencies for Symfony bundles",
+    "type": "library",
+    "keywords": [
+      "symfony",
+      "synfony-bundle"
+    ],
+    "homepage": "https://github.com/mjfk23/symfony-bundle",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Melody Kimball",
+        "role": "lead"
+      }
+    ],
+    "support": {
+      "issues": "https://github.com/mjfk23/symfony-bundle/issues",
+      "wiki": "https://github.com/mjfk23/symfony-bundle/wiki",
+      "source": "https://github.com/mjfk23/symfony-bundle"
+    },
+    "require": {
+      "php": "^8.1",
+      "symfony/config": "6.4.*",
+      "symfony/dependency-injection": "6.4.*",
+      "symfony/http-kernel": "6.4.*",
+      "symfony/yaml": "6.4.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Symfony\\Component\\HttpKernel\\Bundle\\": "src/"
+      }
+    },
+    "config": {
+      "sort-packages": true,
+      "optimize-autoloader": true,
+      "apcu-autoloader": true
+    }
+  }
+  
